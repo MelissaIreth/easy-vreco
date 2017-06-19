@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Easy vreco</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section>
+		<div class="row text-center">
+			<div class="col-md-12 col-sm-12">
+				<button class="btn btn-block" id="encuentrame">Encuéntrame</button>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<p>Origen</p><input type="text" name="origen" placeholder="Introduce una ubicación" >
+			</div><div class="col-md-6 col-sm-6">
+				<p>Destino</p><input type="text" name="destino" placeholder="Introduce una ubicación" >
+			</div>
+			<div class="col-md-12 col-sm-12">
+				<button class="btn btn-block" id="encuentrame">Ruta</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-ms-12 col-sm-12" id="map">
+				
+			</div>
+		</div>
+	</section>
+	<footer class="text-center">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h5>Laboratoria 2017 / Melissa Pacheco</h5>
+			</div>
+		</div>
+	</footer>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8NJ27kOEU4bvrn1_cn814Xrrn_Rxn_fw&callback=initMap"
+  type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
