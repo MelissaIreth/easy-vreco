@@ -4,15 +4,15 @@
 }
 
 #map{
-	width: 100%;
+	width: 99%;
 	height: 80vh;
-	border: 2px solid #87ab53;
+	border: 2px solid #3fb3b9;
 }
 button{
 	margin: 15px auto;
 	padding: 10px 15px;
 	color: white;
-	background-color: #87ab53;
+	background-color: #e56a77;
 	border: 0;
 	font-weight: 700;
 	border-radius: 3px;
@@ -29,13 +29,13 @@ p{
 	margin-bottom: 5px;
 }
 input{
-	border: 1px solid #87ab53;
+	border: 1px solid #3fb3b9;
 	border-radius: 3px;
 	padding: 5px 10px;
 }
 
 footer{
-	background-color: #87ab53;
+	background-color: #e56a77;
 	color: whitesmoke;
 	padding-bottom: 10px;
 	padding-top: 5px;
