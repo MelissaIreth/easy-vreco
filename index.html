@@ -8,18 +8,18 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<section>
+	<section class="head">
 		<div class="row text-center">
 			<div class="col-md-3 col-sm-3">
 				<button  id="encuentrame">Encuéntrame</button>
 			</div>
 			<div class="col-md-3 col-sm-3">
-				<p>Origen </p>
-				<input type="text" name="origen" placeholder="Introduce una ubicación" >
+				<h3>Origen </h3>
+				<input type="text" name="or" id="origen" placeholder="Introduce una ubicación" >
 			</div>
 			<div class="col-md-3 col-sm-3">
-				<p >Destino </p>
-				<input type="text" name="destino" placeholder="Introduce una ubicación" >
+				<h3 >Destino </h3>
+				<input type="text" name="de" id="destino" placeholder="Introduce una ubicación" >
 			</div>
 			<div class="col-md-3 col-sm-3">
 				<button  id="buscar">Ruta</button>
@@ -39,7 +39,8 @@
 			</div>
 		</div>
 	</footer>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8NJ27kOEU4bvrn1_cn814Xrrn_Rxn_fw&callback=initMap"
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8NJ27kOEU4bvrn1_cn814Xrrn_Rxn_fw&libraries=places&callback=initMap"
   type="text/javascript"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/main.js"></script>

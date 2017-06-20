@@ -35,5 +35,17 @@ function initMap(){
 		alert("Tenemos un problema con encontrar tu ubicación")
 	}
 
+
+
+function initialize() {
+
+var input = document.getElementById('origen');
+var autocomplete = new google.maps.places.Autocomplete(input);
+var inputdos = document.getElementById('destino');
+var autocompletedos = new google.maps.places.Autocomplete(inputdos);
 }
 
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+}
